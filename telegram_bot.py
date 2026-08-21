@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 PHONE_NUMBER, MENU_SELECTION, CHANNEL_VERIFICATION = range(3)
 
 # اطلاعات ربات از متغیرهای محیطی
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME")
+BOT_TOKEN = os.getenv("8350647127:AAG0dWujgM0pD9XlsYKFwqOVPvhrNkHn3kk")
+CHANNEL_USERNAME = os.getenv("quantex_robo")
 
 # بررسی اینکه متغیرهای محیطی وجود دارند
 if not BOT_TOKEN:
