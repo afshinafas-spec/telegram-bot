@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 PHONE_NUMBER, MENU_SELECTION, CHANNEL_VERIFICATION = range(3)
 
 # اطلاعات ربات (توجه: توکن خود را جایگزین کنید)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-CHANNEL_USERNAME = None  # این را بعداً مقدار دهید
+BOT_TOKEN = "8350647127:AAG0dWujgM0pD9XlsYKFwqOVPvhrNkHn3kk"
+CHANNEL_USERNAME = quantex_robo  # این را بعداً مقدار دهید
 
 # ایجاد دیتابیس
 def init_db():
